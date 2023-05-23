@@ -7,5 +7,5 @@ def main(number):
         bool
     """
     # Write your code here
-    return number and True
-print(main(True))
+    return number or True
+print(main(False))
